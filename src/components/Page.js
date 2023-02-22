@@ -66,7 +66,7 @@ export default function Page() {
         })
     }
     
-    function removeItem(event, key) {
+    function removeItem(key) {
         setList(prevList => {
             return prevList.filter(item => item.id !== key)
         })
